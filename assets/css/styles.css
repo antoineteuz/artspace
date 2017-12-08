@@ -598,6 +598,124 @@ header .press img {
   align-items: flex-start;
 }
 
+/*************************************************** PAGE PRICING ***************************************************/
+
+.pricing {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.pricing_container .box {
+	text-align: center;
+}
+
+.pricing_container .black_box {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background: #121212;
+}
+
+.pricing_container .black_box h1 {
+	color: white;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.pricing_container .black_box h1:after {
+	content: "";
+	display: block;
+	height: 2px;
+	width: 100%;
+	text-align: center;
+	background-color: white;
+	margin: 15px 0 25px;
+}
+
+.pricing_container .black_box .princing_text {
+	font-size: 15px;
+	text-transform: uppercase;
+	color: white;
+}
+
+.pricing_container .black_box .big_number {
+	font-size: 70px;
+	text-transform: uppercase;
+	color: white;
+}
+
+.pricing_container .black_box .princing_little_text {
+	color: #404040;
+}
+
+.pricing_container .gray_box {
+	background: #F7F7F7;
+}
+
+.pricing_container .gray_box p {
+	padding: 15px;
+	color: #777878;
+	border-bottom: 2px solid #EEEEEE;
+}
+
+.pricing_container h3.title {
+	color: #222;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+h3.title:after {
+	content: "";
+	display: block;
+	height: 2px;
+	width: 300px;
+	background-color: #222;
+	margin: 15px 0 25px;
+}
+
+h3.title.center:after {
+	margin: 15px auto 25px;
+}
+
+.pricing_container .description {
+	padding-top: 30px;
+}
+
+.pricing_container .subtitle {
+	max-width: 60%;
+}
+
+.padding .subtitle {
+	margin-top: 20px;
+	max-width: 55%;
+}
+
+.pricing_container {
+	padding-Top:100px;
+	padding-left: 150px;
+	padding-right: 150px;
+	display: flex;
+	width: 100%;
+	height: 75%;
+	max-height: 75%;
+}
+
+.standard {
+	flex: 0 1 50%;
+  min-height: 100%;
+  max-width: 50%;
+  padding: .5em;
+}
+
+.unlimited {
+	flex: 0 1 50%;
+  display: flex;
+  height: 100%;
+  max-width: 50%;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
 /** Footer **/
 
 footer {
