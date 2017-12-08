@@ -1,0 +1,7 @@
+Aujourd'hui, le projet n'est pas encore développé en responsive.
+
+C'était une notion nouvelle pour moi, y compris le web de manière générale, et j'ai donc été pris par le temps.
+
+Cependant, je pense que j'aurai opté pour la stratégie d'ajuster la taille des polices en fonctions des écrans et également supperposer les éléments qui sont côte à côte sur de petites résolutions ou sur mobile.
+
+Antoine Pelletier.
